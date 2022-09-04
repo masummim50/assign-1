@@ -8,10 +8,10 @@ app.use(cors());
 const PORT = 9000;
 
 app.get('/', (req, res)=> {
-    res.send("server running on new port");
+    res.send("server running on new port and changed now");
 })
 
 
 app.listen(PORT, ()=> {
-    console.log("running")
+    console.log("running again  ")
 })
